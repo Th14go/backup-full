@@ -1,6 +1,6 @@
 ![bashmini](https://user-images.githubusercontent.com/12428027/37692278-5515c1cc-2c96-11e8-9542-b4502ff6a310.png)
 
-Este backup é executado em pasta remota, existem duas formas de editar o FSTAB.
+Este backup é executado em pasta remota, existem duas formas de editar o FSTAB de forma segura ou insegura.
 
 
 <b>#Dependencias#</b>
@@ -37,4 +37,7 @@ Montar as unidades.<br>
 Devera aparecer a unidade montada com o destino remoto<br>
 
 <b>Alterar Váriaveis</br>
+<b>SRCDIR</b><br>
+<b>DSTDIR </b><br>
 
+# git clone https://github.com/Th14go/script-bck-full
