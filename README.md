@@ -1,6 +1,6 @@
 ![bashmini](https://user-images.githubusercontent.com/12428027/37692278-5515c1cc-2c96-11e8-9542-b4502ff6a310.png)
 
-<b><p align="center">Backup FULL - com LOG e rsync LOG</p><br>
+<b><p align="center">Backup FULL - com LOG e rsync LOG </b></p><br>
 Este backup é executado em pasta remota, existem duas formas de editar o FSTAB de forma segura ou insegura.
 
 
