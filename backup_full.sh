@@ -1,4 +1,7 @@
 #!/bin/bash
+#Adaptado por: Th14go
+#Créditos: Desconhecido
+
 echo "Backup full"
 
 
