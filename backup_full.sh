@@ -12,7 +12,7 @@ dadosfull() {
 SRCDIR="/mnt/Dados/ARQUIVOS/" #diretórios que serão feito backup
 DSTDIR=/mnt/backup/FULL #diretório de destino do backup
 DATA=`date +%x-%k%M%S` #pega data atual
-TIME_BKCP=+30 #número de dias em que será deletado o arquivo de backup
+TIME_BKCP=+10 #número de dias em que será deletado o arquivo de backup
 
 #criar o arquivo full-backup.tar no diretório de destino
 #ARQ=$DSTDIR/full-$DATA.tar.gz
@@ -46,7 +46,7 @@ fi
 cp -r /var/log/backup_full.log /mnt/backup/LOG/
 procuraedestroifull(){
 
-#apagando arquivos mais antigos (a mais de 20 dias que existe)
+#apagando arquivos mais antigos (a mais de 10 dias que existe)
 find $DSTDIR -name "f*" -ctime $TIME_BKCP -exec rm -f {} ";"
    if [ $? -eq 0 ] ; then
       echo "Arquivo de backup mais antigo eliminado com sucesso!"
